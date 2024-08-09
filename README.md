@@ -1,4 +1,5 @@
 **Credit Card Fraud Detection**<br>
+<br>
   This project aims to detect fraudulent credit card transactions using machine learning techniques. The dataset used is highly unbalanced, with the majority of transactions being         
   legitimate. To address this imbalance, the dataset is under-sampled to create a balanced dataset, enabling the model to detect fraud effectively.
    
@@ -6,6 +7,7 @@
   
 
 **Dataset Information**<br>
+<br>
   Dataset used: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
   
   Number of Instances: 284,807
@@ -17,11 +19,13 @@
   
 
 **Installation**<br>
+<br>
   To run the project locally, ensure you have Python installed. You can install the required dependencies by running:
   pip install numpy pandas scikit-learn
   
 
 **Usage**<br>
+<br>
 Import Dependencies:<br>
   Import necessary libraries, including NumPy, pandas, scikit-learn.
 
@@ -46,15 +50,18 @@ Model Evaluation:<br>
   
 
 **Features and Implementation**<br>
+<br>
   Under-Sampling: To handle the class imbalance, the legitimate transactions are under-sampled to match the number of fraudulent transactions.
   Logistic Regression: Used to train the model for binary classification between legitimate and fraudulent transactions.
   Data Analysis: Basic statistical analysis is performed on both legitimate and fraudulent transactions to understand their characteristics.
   
 
 **Results**<br>
+<br>
   The model is trained on an under-sampled dataset to handle the class imbalance. The Logistic Regression model is then evaluated for its accuracy in detecting fraudulent transactions.
 
 **Contributing**<br>
+<br>
   If you would like to contribute to this project, feel free to submit a pull request or raise an issue. Contributions are welcome!
 
 
