@@ -16,45 +16,45 @@
   The dataset is highly unbalanced, with only 492 fraudulent transactions, which accounts for approximately 0.17% of all transactions.
   
 
-**Installation**
+**Installation**<br>
   To run the project locally, ensure you have Python installed. You can install the required dependencies by running:
   pip install numpy pandas scikit-learn
   
 
-**Usage**
-Import Dependencies:
+**Usage**<br>
+Import Dependencies:<br>
   Import necessary libraries, including NumPy, pandas, scikit-learn.
 
-Load Data:
+Load Data:<br>
   Load the credit card dataset using pandas.
   Examine the first and last few rows of the dataset to understand the structure.
 
-Data Exploration:
+Data Exploration:<br>
   Explore the data to understand the distribution of features and target labels.
   Check for any missing values.
 
-Data Preprocessing:
+Data Preprocessing:<br>
   Separate the legitimate and fraudulent transactions.
   Perform under-sampling to create a balanced dataset.
 
-Model Training:
+Model Training:<br>
   Split the data into features and target labels.
   Train a Logistic Regression model using the balanced dataset.
   
-Model Evaluation:
+Model Evaluation:<br>
   Evaluate the model using accuracy score and other metrics.
   
 
-**Features and Implementation**
+**Features and Implementation**<br>
   Under-Sampling: To handle the class imbalance, the legitimate transactions are under-sampled to match the number of fraudulent transactions.
   Logistic Regression: Used to train the model for binary classification between legitimate and fraudulent transactions.
   Data Analysis: Basic statistical analysis is performed on both legitimate and fraudulent transactions to understand their characteristics.
   
 
-**Results**
+**Results**<br>
   The model is trained on an under-sampled dataset to handle the class imbalance. The Logistic Regression model is then evaluated for its accuracy in detecting fraudulent transactions.
 
-**Contributing**
+**Contributing**<br>
   If you would like to contribute to this project, feel free to submit a pull request or raise an issue. Contributions are welcome!
 
 
