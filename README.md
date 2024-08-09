@@ -1,11 +1,11 @@
-**Credit Card Fraud Detection**
+**Credit Card Fraud Detection**<br>
   This project aims to detect fraudulent credit card transactions using machine learning techniques. The dataset used is highly unbalanced, with the majority of transactions being         
   legitimate. To address this imbalance, the dataset is under-sampled to create a balanced dataset, enabling the model to detect fraud effectively.
    
   Credit card fraud is a significant issue for financial institutions. The goal of this project is to build a machine learning model that can accurately identify fraudulent transactions.     The model is trained using Logistic Regression, a powerful statistical method used for binary classification tasks.
   
 
-**Dataset Information**
+**Dataset Information**<br>
   Dataset used: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
   
   Number of Instances: 284,807
